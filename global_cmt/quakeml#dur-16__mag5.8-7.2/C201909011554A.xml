@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="smi:local/22b6db76-8a4d-4be6-8aee-de4e8715495b">
+    <event publicID="smi:local/ndk/C201909011554A/event">
+      <preferredOriginID>smi:local/ndk/C201909011554A/origin#cmtorigin</preferredOriginID>
+      <preferredMagnitudeID>smi:local/ndk/C201909011554A/magnitude#moment_mag</preferredMagnitudeID>
+      <preferredFocalMechanismID>smi:local/ndk/C201909011554A/focal_mechanism</preferredFocalMechanismID>
+      <type>earthquake</type>
+      <typeCertainty>known</typeCertainty>
+      <description>
+        <text>FIJI ISLANDS REGION</text>
+        <type>Flinn-Engdahl region</type>
+      </description>
+      <description>
+        <text>C201909011554A</text>
+        <type>earthquake name</type>
+      </description>
+      <origin publicID="smi:local/ndk/C201909011554A/origin#reforigin">
+        <time>
+          <value>2019-09-01T15:54:20.400000Z</value>
+        </time>
+        <latitude>
+          <value>-20.36</value>
+        </latitude>
+        <longitude>
+          <value>-178.57</value>
+        </longitude>
+        <depth>
+          <value>591000.0</value>
+        </depth>
+        <type>hypocenter</type>
+        <comment id="smi:local/ndk/C201909011554A/comment#ref_origin">
+          <text>Hypocenter catalog: PDEW</text>
+        </comment>
+      </origin>
+      <origin publicID="smi:local/ndk/C201909011554A/origin#cmtorigin">
+        <time>
+          <value>2019-09-01T15:54:25.500000Z</value>
+          <uncertainty>0.1</uncertainty>
+        </time>
+        <latitude>
+          <value>-20.4</value>
+          <uncertainty>0.0</uncertainty>
+        </latitude>
+        <longitude>
+          <value>-178.51</value>
+          <uncertainty>0.01</uncertainty>
+        </longitude>
+        <depth>
+          <value>613800.0</value>
+          <uncertainty>500.0</uncertainty>
+        </depth>
+        <depthType>from moment tensor inversion</depthType>
+        <timeFixed>false</timeFixed>
+        <epicenterFixed>false</epicenterFixed>
+        <type>centroid</type>
+        <creationInfo>
+          <agencyID>GCMT</agencyID>
+          <version>V10</version>
+        </creationInfo>
+      </origin>
+      <magnitude publicID="smi:local/ndk/C201909011554A/magnitude#moment_mag">
+        <mag>
+          <value>6.67</value>
+        </mag>
+        <type>Mwc</type>
+        <originID>smi:local/ndk/C201909011554A/origin#cmtorigin</originID>
+        <creationInfo>
+          <agencyID>GCMT</agencyID>
+          <version>V10</version>
+        </creationInfo>
+      </magnitude>
+      <magnitude publicID="smi:local/ndk/C201909011554A/magnitude#mb">
+        <mag>
+          <value>0.0</value>
+        </mag>
+        <type>mb</type>
+        <comment id="smi:local/ndk/C201909011554A/comment#mb_magnitude">
+          <text>Reported magnitude in NDK file. Most likely 'mb'.</text>
+        </comment>
+      </magnitude>
+      <magnitude publicID="smi:local/ndk/C201909011554A/magnitude#MS">
+        <mag>
+          <value>6.6</value>
+        </mag>
+        <type>MS</type>
+        <comment id="smi:local/ndk/C201909011554A/comment#MS_magnitude">
+          <text>Reported magnitude in NDK file. Most likely 'MS'.</text>
+        </comment>
+      </magnitude>
+      <focalMechanism publicID="smi:local/ndk/C201909011554A/focal_mechanism">
+        <nodalPlanes>
+          <nodalPlane1>
+            <strike>
+              <value>233.0</value>
+            </strike>
+            <dip>
+              <value>16.0</value>
+            </dip>
+            <rake>
+              <value>-78.0</value>
+            </rake>
+          </nodalPlane1>
+          <nodalPlane2>
+            <strike>
+              <value>41.0</value>
+            </strike>
+            <dip>
+              <value>74.0</value>
+            </dip>
+            <rake>
+              <value>-93.0</value>
+            </rake>
+          </nodalPlane2>
+        </nodalPlanes>
+        <principalAxes>
+          <tAxis>
+            <azimuth>
+              <value>134.0</value>
+            </azimuth>
+            <plunge>
+              <value>29.0</value>
+            </plunge>
+            <length>
+              <value>1.172e+19</value>
+            </length>
+          </tAxis>
+          <pAxis>
+            <azimuth>
+              <value>306.0</value>
+            </azimuth>
+            <plunge>
+              <value>60.0</value>
+            </plunge>
+            <length>
+              <value>-1.362e+19</value>
+            </length>
+          </pAxis>
+          <nAxis>
+            <azimuth>
+              <value>42.0</value>
+            </azimuth>
+            <plunge>
+              <value>3.0</value>
+            </plunge>
+            <length>
+              <value>1.9e+18</value>
+            </length>
+          </nAxis>
+        </principalAxes>
+        <momentTensor publicID="smi:local/ndk/C201909011554A/momenttensor">
+          <derivedOriginID>smi:local/ndk/C201909011554A/origin#cmtorigin</derivedOriginID>
+          <dataUsed>
+            <waveType>body waves</waveType>
+            <stationCount>170</stationCount>
+            <componentCount>459</componentCount>
+            <shortestPeriod>50.0</shortestPeriod>
+          </dataUsed>
+          <dataUsed>
+            <waveType>surface waves</waveType>
+            <stationCount>0</stationCount>
+            <componentCount>0</componentCount>
+            <shortestPeriod>0.0</shortestPeriod>
+          </dataUsed>
+          <dataUsed>
+            <waveType>mantle waves</waveType>
+            <stationCount>163</stationCount>
+            <componentCount>320</componentCount>
+            <shortestPeriod>125.0</shortestPeriod>
+          </dataUsed>
+          <scalarMoment>
+            <value>1.267e+19</value>
+          </scalarMoment>
+          <tensor>
+            <Mrr>
+              <value>-7.5e+18</value>
+              <uncertainty>4e+16</uncertainty>
+            </Mrr>
+            <Mtt>
+              <value>4.15e+18</value>
+              <uncertainty>6e+16</uncertainty>
+            </Mtt>
+            <Mpp>
+              <value>3.35e+18</value>
+              <uncertainty>6e+16</uncertainty>
+            </Mpp>
+            <Mrt>
+              <value>-6.84e+18</value>
+              <uncertainty>5e+16</uncertainty>
+            </Mrt>
+            <Mrp>
+              <value>-8.39e+18</value>
+              <uncertainty>5e+16</uncertainty>
+            </Mrp>
+            <Mtp>
+              <value>1.93e+18</value>
+              <uncertainty>6e+16</uncertainty>
+            </Mtp>
+          </tensor>
+          <sourceTimeFunction>
+            <type>triangle</type>
+            <duration>10.6</duration>
+          </sourceTimeFunction>
+          <inversionType>zero trace</inversionType>
+          <creationInfo>
+            <agencyID>GCMT</agencyID>
+            <version>V10</version>
+          </creationInfo>
+        </momentTensor>
+        <comment id="smi:local/ndk/C201909011554A/comment#cmt_type">
+          <text>CMT Analysis Type: Standard</text>
+        </comment>
+        <comment id="smi:local/ndk/C201909011554A/comment#cmt_timestamp">
+          <text>CMT Timestamp: S-20191129192407</text>
+        </comment>
+        <creationInfo>
+          <agencyID>GCMT</agencyID>
+          <version>V10</version>
+        </creationInfo>
+      </focalMechanism>
+    </event>
+  </eventParameters>
+</q:quakeml>

@@ -1,0 +1,13 @@
+ PDE 2014 03 10 05 18 13.40   40.8300 -125.1300  16.6 6.9 6.9 OFF COAST OF NORTHERN CALIFORNIA
+event name:   C201403100518A
+time shift:           8.4000
+half duration:        7.0000
+latitude:            40.8000
+longitude:         -125.2300
+depth:               15.0000
+Mrr:           -6.300000E+24
+Mtt:           -2.840000E+26
+Mpp:            2.900000E+26
+Mrt:            2.110000E+25
+Mrp:           -8.300000E+24
+Mtp:            4.830000E+25

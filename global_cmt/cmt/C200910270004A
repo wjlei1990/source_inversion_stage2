@@ -1,0 +1,13 @@
+ PDE 2009 10 27 00 04 46.20  -59.9600  -65.1600  10.0 6.0 6.0 DRAKE PASSAGE
+event name:   C200910270004A
+time shift:           4.5000
+half duration:        2.4000
+latitude:           -60.0500
+longitude:          -65.5400
+depth:               15.0000
+Mrr:           -3.700000E+23
+Mtt:            4.650000E+24
+Mpp:           -4.280000E+24
+Mrt:           -8.900000E+23
+Mrp:           -2.200000E+23
+Mtp:            1.160000E+25
