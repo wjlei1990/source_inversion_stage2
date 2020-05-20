@@ -1,0 +1,20 @@
+# Remember to change simulation length if you change this# needs to be a list
+channels: ['BH*']
+
+# location 00 is the primary location for most seismometers
+locations: ['00']
+
+# time before centroid time
+# -60 seconds is 1 min before the earthquakes inverted cmt solution
+starttime_offset: -300
+
+# time after centroid time
+# seconds, 1h = 3600s, 3h=10800, 5h = 18000
+endtime_offset: 11000
+
+# Networks as string
+networks: ["II", "IU", "IC", "G", "MN", "GE", "CU"]
+
+# "II,IU,IC,G,MN,GE,CU" used in Global CMT proj
+providers:
+  - "IRIS"
