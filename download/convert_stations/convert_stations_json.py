@@ -63,7 +63,7 @@ def f(data):
 def serial_convert(eventlist, stationxml_base, output_base):
     for i, eventname in enumerate(eventlist):
         print("=============> [{} / {}] {}".format(
-            i+1, len(eventlist), os.getpid()))
+            i+1, len(eventlist), eventname))
         input_dir = os.path.join(stationxml_base, eventname)
         outputfn = os.path.join(
                 output_base, "STATIONS.{}.json".format(eventname))
@@ -92,9 +92,10 @@ def parallel_convert(eventlist, stationxml_base, output_base, nproc=1):
 
 
 def main():
-    stationxml_base = "/tigress/lei/source_inversion_II/download.1480/station"
-    output_base = "/tigress/lei/source_inversion_II/download.1480/station.json"
-    eventfile = "./eventlist.440"
+    basedir = "/gpfs/alpine/geo111/proj-shared/wenjie/source_inversion_II/data/download"
+    stationxml_base = os.path.join(basedir, "station")
+    output_base = os.path.join(basedir, "station.json")
+    eventfile = "./eventlist.738"
 
     events = load_txt(eventfile)
     print("Number of events: {}".format(len(events)))
